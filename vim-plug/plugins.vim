@@ -36,4 +36,10 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 
     Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
     Plug 'junegunn/fzf.vim'
+
+    " Use release branch (recommend)
+    Plug 'neoclide/coc.nvim', {'branch': 'release'}
+
+    " Or build from source code by using yarn: https://yarnpkg.com
+    Plug 'neoclide/coc.nvim', {'do': 'yarn install --frozen-lockfile'}
 call plug#end()

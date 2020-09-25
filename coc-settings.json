@@ -1,3 +1,20 @@
 {
+  "coc.preferences.formatOnSaveFiletypes": [
+    "css",
+    "markdown",
+    "html",
+    "javascript",
+    "yaml",
+    "js",
+    "ruby",
+    "erb",
+    "haml"
+  ],
+
+  "eslint.autoFix": true,
+  "eslint.packageManager": "yarn",
+  "eslint.run": "onSave",
+  "javascript.showUnused": true,
+  "javascript.preferences.quoteStyle": "double"
 
 }

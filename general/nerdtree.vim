@@ -1,2 +1,2 @@
 " Finding the right file
-nnoremap <space>t :NERDTreeToggle<CR>
+nnoremap <leader><leader>t :NERDTreeToggle<CR>

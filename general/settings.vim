@@ -94,3 +94,5 @@ command! -nargs=0 Format :call CocAction('format')
     let g:fzf_layout = { 'window': 'enew' }
     let g:fzf_layout = { 'window': '-tabnew' }
 
+" NERDTREE
+let g:NERDTreeIgnore = ['^node_modules$']
